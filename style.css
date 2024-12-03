@@ -1,0 +1,41 @@
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ol {
+    color: white;
+}
+nav ol > li {
+    position: relative;
+}
+nav ol > li > label {
+    display: block;
+    padding: 10px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+nav ol > li input[type="checkbox"] {
+    display: none;
+}
+nav ol > li ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ol > li input[type="checkbox"]:checked ~ ul {
+    display: block;
+}
+nav ol > li ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+}
+nav ol > li ul li a:hover {
+    background-color: #575757;
+}
+

@@ -1,3 +1,6 @@
+h1{
+    text-align: center;
+}
 
 nav {
     background-color: #333;
@@ -38,4 +41,3 @@ nav ol > li ul li a {
 nav ol > li ul li a:hover {
     background-color: #575757;
 }
-
